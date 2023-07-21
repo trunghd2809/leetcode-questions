@@ -33,7 +33,7 @@ const topKFrequent = (nums, k) => {
   });
 
   // return array of most k frequent elements
-  return heap.slice(0, k).map((i) => i.item);;
+  return heap.slice(0, k).map((i) => i.item);
 };
 
 topKFrequent([5,3,1,1,1,3,73,1], 2)
