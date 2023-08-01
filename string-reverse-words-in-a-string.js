@@ -1,6 +1,7 @@
 /**
  * @param {string} s
  * @return {string}
+ * Using two pointer to solve
  */
 const reverseWords = function(s) {
   const arr = s.trim().replaceAll(/\s{1,}/gm, ' ').split(' ');
