@@ -31,6 +31,7 @@ const longestSubarrayPrev = function(nums) {
   return isNotZero ? max - 1 : max;
 };
 // optimize unnecessary variables
+// Idea is the sliding window only 1 zero
 
 const longestSubarray = (nums) => {
   let start = 0, maxCount = 0, zeroCount = 0;

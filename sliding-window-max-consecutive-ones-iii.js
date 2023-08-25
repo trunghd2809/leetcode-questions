@@ -4,6 +4,7 @@
  * @return {number}
  */
 // TODO improve in the feature
+// Idea is the sliding window with pointer++ when k === 0
 const longestOnes = function(nums, k) {
   let count = 0;
   const flip = k;
